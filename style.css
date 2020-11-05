@@ -1,0 +1,92 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+background-color: rgb(31, 31, 31);
+margin: 0px;
+}
+
+
+header{
+  
+    padding: 20px;
+    height: 30px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    position: fixed;
+    background-color:  rgb(51, 51, 51);
+    text-align: center;
+}
+
+.input{
+    height: 25px;
+    background-color: white;
+    border: 0px;
+}
+.search{
+    background-color: rgb(134, 134, 134);
+    color: white;
+    height: 25px;
+    border: 0px;
+}
+
+.list{
+  
+  margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+   flex-wrap: wrap;
+    
+    padding: 10px;
+}
+.item{
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px rgb(58, 58, 58);
+    display: flex;
+    margin: 20px;
+    background-color: rgb(58, 58, 58);
+    width: 600px;
+    height: 300px;
+    text-align: center;
+}
+
+.img{
+    margin: 20px;
+    width: 200px;
+}
+.item-image{
+
+    width: 40%;
+    
+}
+.des{
+    padding: 20px;
+    color: white;
+  
+}
+.author{
+    padding: 5px;
+    border-radius: 5px;
+    width: auto;
+    background-color: rgb(59, 59, 59);
+    display: flex;
+    justify-content: start;
+    margin-bottom: 10px;
+}
+.read{
+    width: 100px;
+    background-color: gray;
+    height: 30px;
+}
+.react{
+   margin: 10px;
+    
+   
+    height: 50%;
+
+}
+.des-text{
+   
+    height: 150px;
+    overflow-y: scroll;
+}
